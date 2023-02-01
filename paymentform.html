@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+  </head>
+  <body>
+    <div class="container">
+
+
+    <h1 class="mainHeading">Payment Form</h1>
+    <hr>
+    <h3>User Information</h3>
+<label for="Name">Name: *</label>
+<input type="text" name="" placeholder="Enter name" value=""><br>
+<!--<label for="gender">Gender</label><br>
+<input type="radio" name="gender" value="Male">Male <br>
+<input type="radio" name="gender" value="Female"> Female <br>
+<input type="radio" name="gender" value="Others">Others <br>
+<hr>-->
+<fieldset>
+  <legend>Gender</legend>
+  <input type="radio" name="gender" value="Male">Male
+  <input type="radio" name="gender" value="Female"> Female
+  <input type="radio" name="gender" value="Others">Others <br>
+</fieldset><br><br>
+<label for="address">Address:</label>
+<textarea name="comment" rows="8" cols="80" placeholder="Enter your address here..."></textarea> <br>
+<br>
+<label for="e-mail">Email:</label>
+<input type="email" name="E-mail" value="" placeholder="abc@gmail.com"> <br> <br>
+<label for="pincode">Pincode:</label>
+<input type="pincode" name="" value="" placeholder="********"> <br>
+
+<h3>Payment Information</h3>
+<label for="">Card Type: *</label>
+<select class="" name="card-type">
+  <option value="">--Select Card-Type</option>
+  <option value="">Debit Card</option>
+  <option value="">Credit Card</option>
+  <option value="">Rashan Card</option>
+
+</select>
+<br> <br>
+<label for="card number" p>Card Number: *</label>
+<input type="text" name="" value="" placeholder="111-222-333-444"><br> <br>
+<label for="">Expiration date:</label>
+<input type="date" name="" value=""> <br> <br>
+<label for="cvv">CVV:</label>
+<input type="number" name="" value="" placeholder="123"><br> <br>
+<input type="button" name="" value="Pay now">
+</div>
+  </body>
+</html>
